@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap" rel="stylesheet">
+    <title>Inkfograph/Contacto</title>
+</head>
+<body>
+
+    <header>
+        <h1>
+            Inkfograph
+        </h1>
+    </header>
+        
+    
+
+    <nav class="button-container" >                       
+        <div>
+                <a href="../index.html" target="_blank">Home</a> 
+        </div>
+
+        <div>
+                <a href="galeria.html" target="_blank" > Galeria   </a> 
+        </div>
+
+        <div>
+                <a href="simbolismos.html" target="_blank" >Simbolismos</a>
+        </div>
+
+        <div>
+                <a href="#">contacto</a>
+        </div>
+
+        <div>
+                <a href="estilos.html" target="_blank" >Estilos</a>
+        </div>  
+
+    </nav>
+
+   <main>
+
+         <h2>DEJANOS UN COMENTARIO</h2>
+
+        <section class="contacto--container">
+
+            <form id="backForm" action="procesar.php" method="post">
+
+                <fieldset>
+
+                    <legend>Formulario de Contacto</legend>
+
+                    <p>
+                    <label for="nombre">Nombre: </label>
+                    
+                    <input type="text" name="nombre" placeholder="ingresatunombre">
+                </p>
+                
+                    <p>
+                    <label for="apellido">Apellido: </label>
+                    
+                    <input type="text" name="apellido" placeholder="ingresatuapellido">
+                    </p>
+                
+                    <p>
+                        <label for="pass">Contrasena: </label>
+                    
+                        <input type="password" name="pass">
+                    </p>
+                
+                    <p>
+                
+                
+                        <label for="email">Email: </label>
+                        <input type="email" name="email" placeholder="ingresatucorreo" required>
+                    </p>
+                
+                    <p>
+                        <label for="telefono">Telefono: </label>
+                        <input type="tel" name="telefono" placeholder="ingresatunumero">
+                    </p>
+                
+                    
+                    
+                        
+                
+                
+                    
+                
+                    <h3 class="comentario">Dejame tu comentario</h3>
+                
+                    <textarea name="comentario" id="" cols="30" rows="10"></textarea>
+                
+                
+                    <p><input type="submit" value="Enviar"></p>
+                    <p><input type="reset" value="Borrar Formulario"></p>
+
+                </fieldset>
+            
+            
+            </form>
+
+        </section> 
+
+    </main>
+
+        
+    <footer class="footer">
+
+        <div class="footer-text">
+
+            <h4>Todos los derechos reservados Inkfograph 2022 </h4>
+
+            <div  class="logos-ig" >
+
+                <p>No te olvides de seguirnos en nuestras redes <a href="https://www.instagram.com/inkfograph/?hl=es-la" target="_blanck"> 
+
+                <img src="../assets/imagenes/new-instagram-logo-png-transparent-light.png" alt="instagram"  width="25px"></p> </a>
+           
+             </div>
+             
+        </div>
+
+    </footer>   
+
+
+</body>
+</html>
