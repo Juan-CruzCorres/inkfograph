@@ -10,7 +10,11 @@ body{
 }
 /*index---------------------------------------------------------------*/
 
+ a{
+  text-decoration: none;
+  color: white;
 
+ }
 /*GRID INDEX------------------------------------------------------------*/
 
 .index-layout{
@@ -79,10 +83,10 @@ font-size:120%;
    
   }
 
-h1{
+.animate__shakeY{
   animation-name: animate__pulse ;
   animation-duration: 5s;
-  animation-delay: 3s;
+  animation-delay: 1s;
 }
 
 
@@ -114,7 +118,15 @@ height: 100px;
   height: 20px;
   font-style: italic;
   display:inline-block;
-  
+  cursor: pointer;
+  transition: all 1s;
+
+ }
+
+ .button-container div:hover{
+
+ color: rgba(207, 1, 1, 0.476);
+ background: rgba(65, 59, 59, 0.801);
 
  }
 
