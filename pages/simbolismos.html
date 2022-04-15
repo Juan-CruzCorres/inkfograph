@@ -10,39 +10,38 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
    />
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+      
     <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <header>
-        <h1 class="animate__shakeY">
+    <header >
+        <h1 class="animate__shakeY display-5" >
             Inkfograph
         </h1>
+        
     </header>
-        
-    
-    <nav class="button-container">
-        <div>
-            <a href="../index.html" target="_blank">Home</a> 
-        </div>
-        
-        <div>
-            <a href="galeria.html" target="_blank"  > Galeria </a> 
-        </div>
-
-        <div>
-            <a href="#"  >Simbolismos</a>
-        </div>
-        
-        <div>
-            <a href="contacto.html" target="_blank">Contacto</a>            
-        </div>
-
-        <div>
-            <a href="estilos.html" target="_blank" >Estilos</a>
-        </div>
-
-    </nav>
+    <section class="nav-bar">
+    <ul class="nav nav-tabs ">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Simbolismos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../pages/estilos.html">Estilos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="../pages/galeria.html">Galeria</a>
+        </li>
+      </ul>
+    </section>
 
        
     <main>  
@@ -52,6 +51,8 @@
              <h2>Simbolismos</h2 >   
 
         </section>
+
+        <section class="texto--tattoo">
         <p>
             ¿Alguna vez te preguntaste cual es el significado de algun Tatuaje?
         </p>
@@ -64,8 +65,10 @@
         <p>
             <h3 class="subtitulo-simbolismos">¿Quieres saber cuales son?</h3>
         </p>
-        <section class="top--container">
-            <ul>
+
+    </section>
+
+        <section class="lista-tattoo conteiner d-flex justify-content-start">
                  <li>Corazones</li>
                  <li>Peces koi</li>
                  <li>Tribales</li>
@@ -79,105 +82,123 @@
             </ul>
         </section>
     
-        <section class="imagenestop--container">
+        <section >
 
-            <ul>
-                <div>
-                    <li> <img src="../assets/imagenes/corazon.jpg" height="240px" width="240px"></li>
-                    <h4>CORAZONES</h4>
-                    <p>Tatuarse un corazón significa sentimiento y pasión, es el símbolo por excelencia del amor
-                       no obstante, encierra muchos significados. Los tatuajes de corazones son válidos tanto para hombres como mujeres, es un diseños muy popular.
-                    </p>
-                </div>    
+            <ul class="imagenes--cartas d-flex justify-content-between flex-wrap" >
+                <div class="cartas card mb-3">
+                    <img src="../assets/imagenes/corazon.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">CORAZONES</h5>
+                      <p class="card-text">Tatuarse un corazón significa sentimiento y pasión, es el símbolo por excelencia del amor
+                        no obstante, encierra muchos significados. Los tatuajes de corazones son válidos tanto para hombres como mujeres, es un diseños muy popular.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
 
-                <div>
-                    <li> <img src="../assets/imagenes/pez koi.jpg" height="240px" width="240px"></li>
-                    <h4>PECES KOI</h4>
-                    <p>Los peces Koi no son solo carpas orientales: son, además, un auténtico símbolo en su país de origen (China) de la prosperidad y la buena suerte; pero también lo son en Japón (un país que se interesó especialmente por la cría de estos peces), 
-                      donde el pez Koi es un símbolo de amor y amistad.
-                    </p>
 
-                </div>
+                  <div class="cartas card mb-3  d-flex justify-content-end">
+                    <img src="../assets/imagenes/pez koi.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">PECES KOI</h5>
+                      <p class="card-text">Los peces Koi no son solo carpas orientales: son, además, un auténtico símbolo en su país de origen (China) de la prosperidad y la buena suerte; pero también lo son en Japón (un país que se interesó especialmente por la cría de estos peces), 
+                        donde el pez Koi es un símbolo de amor y amistad.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
 
-                <div>
-                    <img src="../assets/imagenes/tribal2.jpg" height="240px" width="240px">
-                    <h4>TRIBALES</h4>
-                    <P>Los tribales no son figuras, sino símbolos que se tatúan ya sea por su significado o por su atractivo estético. Estos tatuajes suelen respetar un patrón geométrico definido y, por su apariencia,
-                       recuerdan a los símbolos que se pintaban las antiguas tribus por motivos religiosos o ceremoniales.</P>
-                </div>
+                  <div class="cartas card mb-3  d-flex justify-content-end">
+                    <img src="../assets/imagenes/tribal2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">TRIBALES</h5>
+                      <p class="card-text"></p>
+                      <p class="card-text">Los tribales no son figuras, sino símbolos que se tatúan ya sea por su significado o por su atractivo estético. Estos tatuajes suelen respetar un patrón geométrico definido y, por su apariencia,
+                        recuerdan a los símbolos que se pintaban las antiguas tribus por motivos religiosos o ceremoniales.<small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
 
-                <div>
-                    <img src="../assets/imagenes/ancla.jpg" height="240px" width="240px">
-                    <h4>TEMAS MARITIMOS</h4>
-                    <p> Ancla: Un ancla tatuada en cualquier parte del cuerpo representaba que un marinero había completado un viaje a través del Atlántico. También era un amuleto de determinación y coraje.
+                  <div class="cartas card mb-3  d-flex justify-content-end">
+                    <img src="../assets/imagenes/ancla.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">TEMAS MARITIMOS</h5>
+                      <p class="card-text"></p>
+                      <p class="card-text"> Ancla: Un ancla tatuada en cualquier parte del cuerpo representaba que un marinero había completado un viaje a través del Atlántico. También era un amuleto de determinación y coraje.
 
-                        - Brújula: una brújula era tatuada para que un marinero siempre pudiera encontrar el camino a casa llegando sano y salvo.
-                    </p>                    
-                </div>    
+                        - Brújula: una brújula era tatuada para que un marinero siempre pudiera encontrar el camino a casa llegando sano y salvo.<small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
 
-                <div>
-                    <img src="../assets/imagenes/flores.jpg" height="240px" width="240px">
-                    <h4>FLORES</h4>
-                    <p>Las flores, por lo general, simbolizan belleza, libertad, protección, frescura, fertilidad y cambio, 
-                        pero siempre están ligadas a la naturaleza que nos rodea. 
-                    </p>
-                </div>
 
-                <div>
-                    <img src="../assets/imagenes/infinito.jpg" height="240px" width="240px">
-                    <h4>INFINITO</h4>
-                    <p>El significado claro del símbolo del infinito es que este representa la perpetuidad, la continuidad, lo eterno y que dura para siempre.
-                        Por tanto, suelen tatuárselo personas que buscan recordar este significado o que creen que representa su personalidad o forma de pensar respecto a la vida.
-                    </p>
-                </div>
+                  <div class="cartas card mb-3  d-flex justify-content-end">
+                    <img src="../assets/imagenes/flores.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">FLORES</h5>
+                      <p class="card-text"></p>
+                      <p class="card-text">Las flores, por lo general, simbolizan belleza, libertad, protección, frescura, fertilidad y cambio, 
+                        pero siempre están ligadas a la naturaleza que nos rodea. <small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
 
-                <div>
-                    <img src="../assets/imagenes/flechas.jpg" height="240px" width="240px">
-                    <h4>FLECHAS</h4>
-                    <p>Su primer significado está relacionado con la protección,
-                        se trata de un símbolo que representa el resguardo de todo aquello que puede herirnos o hacernos daño de forma real o figurativa.
-                    </p>
-                </div> 
 
-                <div>
-                    <img src="../assets/imagenes/angeles.jpg" height="240px" width="240px">
-                    <h4>ANGELES/ALAS</h4>
-                    <p>El significado de los tatuajes de ángeles. Uno de los diseños más comunes es el del ángel sujetando una arpa, con expresiones dulces o muy graciosos e inocentes. 
-                        Al fin y al cabo los ángeles están relacionados con la bondad, el amor y la protección.
-                    </p>
-                </div>
+                  <div class="cartas card mb-3  d-flex justify-content-end">
+                    <img src="../assets/imagenes/infinito.jpg"" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">INFINITO</h5>
+                      <p class="card-text"></p>
+                      <p class="card-text">El significado claro del símbolo del infinito es que este representa la perpetuidad, la continuidad, lo eterno y que dura para siempre.
+                        Por tanto, suelen tatuárselo personas que buscan recordar este significado o que creen que representa su personalidad o forma de pensar respecto a la vida.<small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
 
-                <div> 
-                    <img src="../assets/imagenes/craneo.jpg" height="240px" width="240px">
-                    <h4>CRANEOS</h4>
-                    <p>Para muchas personas tatuarse una calavera significa una victoria ante la muerte, por haber sobrevivido un accidente o haber superado una larga enfermedad. 
-                        También puede representar un peligro mortal. Que representamos o que hemos superado.
-                    </p>
-                </div>  
+                  <div class="cartas card mb-3  d-flex justify-content-end">
+                    <img src="../assets/imagenes/flechas.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">FLECHAS</h5>
+                      <p class="card-text">Su primer significado está relacionado con la protección,
+                        se trata de un símbolo que representa el resguardo de todo aquello que puede herirnos o hacernos daño de forma real o figurativa.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
 
-                <div>   
-                    <img src="../assets/imagenes/estrellas.jpg" height="240px" width="240px">
-                    <h4>ESTRELLAS</h4>
-                    <p>Las estrellas, por ser un elemento nocturno, representan la lucha contra la oscuridad simbolizando según la cantidad de puntas el vínculo divino que existe entre el hombre y el Dios. 
-                        También son consideradas una imagen que personifica la verdad y la espiritualidad, pues iluminan la noche.
-                    </p>
-                </div>
+             
+                  <div class="cartas card mb-3  d-flex justify-content-end">
+                    <img src="../assets/imagenes/angeles.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">ANGELES/ALAS</h5>
+                      <p class="card-text">El significado de los tatuajes de ángeles. Uno de los diseños más comunes es el del ángel sujetando una arpa, con expresiones dulces o muy graciosos e inocentes. 
+                        Al fin y al cabo los ángeles están relacionados con la bondad, el amor y la protección.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
 
+
+               
+
+                <div class="cartas card mb-3  d-flex justify-content-end">
+                    <img src="../assets/imagenes/estrellas.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">ESTRELLAS</h5>
+                      <p class="card-text">Las estrellas, por ser un elemento nocturno, representan la lucha contra la oscuridad simbolizando según la cantidad de puntas el vínculo divino que existe entre el hombre y el Dios. 
+                        También son consideradas una imagen que personifica la verdad y la espiritualidad, pues iluminan la noche.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+
+              
             </ul>
 
         </section>
 
     </main>
 
-    <footer class="footer">
+    <footer class="footer-container" >
 
-        <div class="footer-text">
+        <div class="row">
 
-            <h4>Todos los derechos reservados Inkfograph 2022 </h4>
+            <h4 class="footer--text col-md-12 d-flex justify-content-end ">Todos los derechos reservados Inkfograph 2022 </h4>
 
-            <div  class="logos-ig" >
+            <div  class="logos-ig col-md-12" >
 
-                <p>No te olvides de seguirnos en nuestras redes <a href="https://www.instagram.com/inkfograph/?hl=es-la" target="_blanck"> 
+                <p class="redes d-flex justify-content-center">No te olvides de seguirnos en nuestras redes <a href="https://www.instagram.com/inkfograph/?hl=es-la" target="_blanck"> 
 
                 <img src="../assets/imagenes/new-instagram-logo-png-transparent-light.png" alt="instagram"  width="25px"></p> </a>
            
@@ -185,7 +206,7 @@
              
         </div>
 
-    </footer>   
+    </footer>  
 
 </body>
 </html>

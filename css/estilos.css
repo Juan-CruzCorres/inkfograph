@@ -4,7 +4,7 @@ margin: 0px;
 }
 
 body{
-  background-color: black;
+  background-color: black !important;
   
   
 }
@@ -631,16 +631,17 @@ color: white;
   background-color: rgb(34, 31, 27);
 }
 
-.carousel-item{
+.carousel-item img{
 
-max-height: 190px;
-max-width: 200px;
+height: 350px;  
+width: 300;  
 } 
 
 .carrusel{
 
 padding-top: 20px;
 background-color: black;
+height: 500px;
 }
 .carousel-caption p{
 
@@ -719,4 +720,46 @@ border-top: 2px solid grey
 
 color: white;
 
+}
+
+.texto--tattoo p{
+
+color: white;
+
+}
+
+.texto--tattoo h3{
+
+font-size:larger;
+color: white;
+padding-top: 5px;
+
+}
+
+.lista-tattoo{
+
+margin-left: 1%;
+margin-bottom: 15px;
+}
+
+.lista-tattoo li{
+list-style: none;
+padding: 10px;
+font-size: medium;
+border: 2px solid white;
+color: white;
+}
+
+
+.cartas{
+
+width: 500px;
+
+}
+
+.imagenes--cartas img{
+
+width: 500px;
+height: 400px;
+  
 }
