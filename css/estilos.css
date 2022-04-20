@@ -3,6 +3,7 @@ padding: 0px;
 margin: 0px;
 }
 
+
 body{
   background-color: black !important;
   
@@ -238,8 +239,9 @@ text-decoration: underline dashed;
  margin-top: 20px;
  margin-left: 20px;
  border: 2px solid;
- width: 80px;
+ width: 100px;
  margin-bottom: 20px;
+ color: white;
 
 }
 .subtitulo-simbolismos{
@@ -250,15 +252,16 @@ margin-top: 5px;
 .Subtitulo h3{
 
 position: absolute;
-right: 2px;
-top: 260px;
+right: 1px;
+top: 105px;
 font-size: 15px;
 padding-left: 15px;
 border: 2px solid;
 width: 120px;
 text-align:left;
-padding: 10px;
-margin-right: 10px;
+padding: 5px;
+color: rgba(255, 255, 255, 0.877);
+
 }
 
 .imagen--container{
@@ -423,19 +426,22 @@ display: flex;
  margin-bottom: 40px;
 }
 
-h4{
 
-  color: red ;
-  margin-bottom: 3px;
-  margin-left: 3px;
-  font-family: 'Lucida Sans';
-}
 
 .contacto--container p{
 
   margin-bottom: 60px;
   margin-left: 10px;
+  color: white;
 }
+
+.contacto--container legend{
+
+color: gray;
+
+}
+
+
 
 .texto--estilos{
 display: grid;
@@ -457,19 +463,21 @@ margin: 10px;
 font-size: 20px;
 text-align: center;
 font-family: cursive;
+color: rgba(255, 0, 0, 0.671);
 
 }
-
 .texto--estilos p{
   padding-top: 10px;
   text-align:justify;
+  color: white;
 
 }
+
 
 .comentario{
 
 font-size: 15px;
-
+color: gray;
 }
 
 
@@ -763,3 +771,24 @@ width: 500px;
 height: 400px;
   
 }
+
+/*GALERIA-------------------------------------------------*/
+
+.imagenes--galeria{
+
+margin: 10px;
+
+}
+
+.imagenes--galeria p{
+
+color: white;
+border: 2px dashed white;
+}
+
+.imagenes--galeria img{
+
+border: 1px solid red;
+width: 200px;
+}
+
