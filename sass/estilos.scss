@@ -8,9 +8,13 @@ $cartas-texto: rgb(117, 10, 10) ;
 
 $galeria-p: rgb(236, 230, 230);
 
+
+
 @import"cartas";
 
 @import"galeria";
+
+@import"mapas.scss";
 
 * {
     padding: 0px;
@@ -27,9 +31,9 @@ $galeria-p: rgb(236, 230, 230);
     
      a{
       text-decoration: none;
-      color: white;
+      color: map-get($palette , primary);
     
-     }
+     };
     /*GRID INDEX------------------------------------------------------------*/
     
     .index-layout{
@@ -46,7 +50,7 @@ $galeria-p: rgb(236, 230, 230);
     grid-column: 1/8;
     grid-row: 1/2;
     
-    }
+    };
     
     .nav{
     grid-column: 2/6 ;
@@ -80,7 +84,7 @@ $galeria-p: rgb(236, 230, 230);
       height: 60px;
     
     font-family: 'Lobster Two', cursive;
-    color: white;
+    color: map-get($palette , primary);
     font-size:120%;
     
     
@@ -138,7 +142,7 @@ $galeria-p: rgb(236, 230, 230);
     
     h2{
     
-    color: rgb(255, 255, 255); 
+    color: map-get($palette , primary);
     padding-left: 15px;
     }
     
@@ -274,7 +278,7 @@ $galeria-p: rgb(236, 230, 230);
     width: 120px;
     text-align:left;
     padding: 5px;
-    color: rgba(255, 255, 255, 0.877);
+    color: map-get($palette , primary);
     
     }
     
@@ -633,7 +637,7 @@ $galeria-p: rgb(236, 230, 230);
     
     .parrafo--1{
     
-    background-color: black;
+    background-color: map-get($palette , dark);
     padding-bottom: 30px;
     }
     
@@ -662,7 +666,7 @@ $galeria-p: rgb(236, 230, 230);
     .carrusel{
     
     padding-top: 20px;
-    background-color: black;
+    background-color: map-get($palette,dark);
     height: 500px;
     }
     .carousel-caption p{

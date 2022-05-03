@@ -30,7 +30,6 @@
 }
 
 .imagenes--galeria img {
-  border: 1px solid red;
   width: 200px;
 }
 
@@ -285,7 +284,7 @@ aside {
   width: 120px;
   text-align: left;
   padding: 5px;
-  color: rgba(255, 255, 255, 0.877);
+  color: white;
 }
 
 .imagen--container {
