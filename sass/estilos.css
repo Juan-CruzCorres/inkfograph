@@ -1,3 +1,13 @@
+/*MIXINS------------------*/
+/*EXTEND-------------------*/
+.bordes-imagenes1, .imagenes--galeria p {
+  border: 2px solid red;
+}
+
+.bordes-imagenes2, .imagenes--galeria img {
+  border: dashed 2px white;
+}
+
 .cartas {
   width: 500px;
 }
@@ -743,11 +753,6 @@ aside {
   width: 500px;
 }
 
-.imagenes--cartas img {
-  width: 500px;
-  height: 400px;
-}
-
 /*GALERIA-------------------------------------------------*/
 .imagenes--galeria {
   margin: 10px;
@@ -755,11 +760,9 @@ aside {
 
 .imagenes--galeria p {
   color: white;
-  border: 2px dashed white;
 }
 
 .imagenes--galeria img {
-  border: 1px solid red;
   width: 200px;
 }
 /*# sourceMappingURL=estilos.css.map */

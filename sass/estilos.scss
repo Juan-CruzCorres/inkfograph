@@ -9,6 +9,24 @@ $cartas-texto: rgb(117, 10, 10) ;
 $galeria-p: rgb(236, 230, 230);
 
 
+/*MIXINS------------------*/
+
+@mixin sizes {
+  width: 500px;
+  margin-right: 0%;
+}
+
+/*EXTEND-------------------*/
+
+.bordes-imagenes1
+{
+border: 2px solid rgb(255, 0, 0);
+}
+
+.bordes-imagenes2
+{
+  border: dashed 2px white;
+}
 
 @import"cartas";
 
@@ -291,13 +309,13 @@ $galeria-p: rgb(236, 230, 230);
     .imagen1--container{
     
       justify-content: space-between;
-      width: 500px;
-      margin-right: 0%;
+      @include sizes;
       position: relative;
       left: 10px;
     }
     .imagen1--container img{
     border: 2px solid rgb(255, 0, 0);
+   
     }
     
     .imagen1--container p{
@@ -313,8 +331,7 @@ $galeria-p: rgb(236, 230, 230);
      
       bottom: 40px;
     justify-content: space-between;
-    width: 500px;
-    margin-right: 0%;
+    @include sizes;
     position: absolute;
     left: 300px;
     top: 260px;
@@ -340,8 +357,7 @@ $galeria-p: rgb(236, 230, 230);
     .imagen3--container{
     
       justify-content: space-between;
-      width: 500px;
-      margin-right: 0%;
+      @include sizes;
       position: absolute;
       left: 590px;
     top: 260px;
@@ -367,8 +383,7 @@ $galeria-p: rgb(236, 230, 230);
     .imagen4--container{
     
       justify-content: space-between;
-      width: 500px;
-      margin-right: 0%;
+      @include sizes;
       position: absolute;
       left: 880px;
     top: 260px;
@@ -783,12 +798,7 @@ $galeria-p: rgb(236, 230, 230);
     
     }
     
-    .imagenes--cartas img{
     
-    width: 500px;
-    height: 400px;
-      
-    }
     
     /*GALERIA-------------------------------------------------*/
     
@@ -801,15 +811,14 @@ $galeria-p: rgb(236, 230, 230);
     .imagenes--galeria p{
     
     color: white;
-    border: 2px dashed white;
+      @extend .bordes-imagenes1;
     }
     
     .imagenes--galeria img{
     
-    border: 1px solid red;
-    width: 200px;
-   
-    
+    @extend .bordes-imagenes2;
+
+    width: 200px
     }
     
     
