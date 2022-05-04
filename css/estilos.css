@@ -1,3 +1,4 @@
+/*MIXINS------------------*/
 /*EXTEND-------------------*/
 .bordes-imagenes1, .imagenes--galeria p {
   border: 2px solid red;
@@ -20,25 +21,6 @@
   color: #750a0a;
 }
 
-
-
-/*GALERIA-------------------------------------------------*/
-.imagenes--galeria {
-  margin: 10px;
-}
-
-.imagenes--galeria {
-  border: 2px dashed white;
-}
-
-.imagenes--galeria p {
-  color: #ece6e6;
-}
-
-.imagenes--galeria img {
-  width: 200px;
-}
-
 * {
   padding: 0px;
   margin: 0px;
@@ -54,7 +36,7 @@ a {
   color: white;
 }
 
-/*GRID INDEX------------------------------------------------------------*/
+/*GRID INDEX------------------------------------------------------------
 .index-layout {
   width: 100%;
   display: -ms-grid;
@@ -100,7 +82,7 @@ a {
   -ms-grid-row-span: 4;
   grid-row: 6/10;
 }
-
+*/
 /*HEADER------------------------------------------------------------------*/
 header {
   background-image: url(../assets/imagenes/istockphoto-932263998-612x612.jpg);
@@ -255,149 +237,6 @@ aside {
 }
 
 /*galeria-------------------------------------------------------------*/
-.Subtitulo h2 {
-  font-size: 32px;
-  text-align: center;
-  font-weight: lighter;
-  font-style: oblique;
-  -webkit-text-decoration: underline dashed;
-          text-decoration: underline dashed;
-}
-
-.Subtitulo p {
-  font-size: 25px;
-  padding-left: 15px;
-  margin-top: 20px;
-  margin-left: 20px;
-  border: 2px solid;
-  width: 100px;
-  margin-bottom: 20px;
-  color: white;
-}
-
-.subtitulo-simbolismos {
-  margin-top: 5px;
-  font-size: 20px;
-}
-
-.Subtitulo h3 {
-  position: absolute;
-  right: 1px;
-  top: 105px;
-  font-size: 15px;
-  padding-left: 15px;
-  border: 2px solid;
-  width: 120px;
-  text-align: left;
-  padding: 5px;
-  color: white;
-}
-
-.imagen--container {
-  width: 85%;
-  height: 70%;
-}
-
-.imagen1--container {
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  width: 500px;
-  margin-right: 0%;
-  position: relative;
-  left: 10px;
-}
-
-.imagen1--container img {
-  border: 2px solid red;
-}
-
-.imagen1--container p {
-  padding-top: 10px;
-  text-align: center;
-  width: 200px;
-  border: dashed 2px;
-}
-
-.imagen2--container {
-  bottom: 40px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  width: 500px;
-  margin-right: 0%;
-  position: absolute;
-  left: 300px;
-  top: 260px;
-}
-
-.imagen2--container img {
-  border: 2px solid red;
-}
-
-.imagen2--container p {
-  padding-top: 10px;
-  border-top: 2px dashed white;
-  border-bottom: 2px dashed white;
-  text-align: center;
-  width: 200px;
-  border-right: 2px dashed white;
-  border: dashed 2px;
-}
-
-.imagen3--container {
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  width: 500px;
-  margin-right: 0%;
-  position: absolute;
-  left: 590px;
-  top: 260px;
-}
-
-.imagen3--container img {
-  border: 2px solid red;
-}
-
-.imagen3--container p {
-  padding-top: 10px;
-  border-top: 2px dashed white;
-  border-bottom: 2px dashed white;
-  text-align: center;
-  width: 200px;
-  border-right: 2px dashed white;
-  border: dashed 2px;
-}
-
-.imagen4--container {
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  width: 500px;
-  margin-right: 0%;
-  position: absolute;
-  left: 880px;
-  top: 260px;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-}
-
-.imagen4--container img {
-  border: 2px solid red;
-}
-
-.imagen4--container p {
-  padding-top: 10px;
-  border-top: 2px dashed white;
-  border-bottom: 2px dashed white;
-  text-align: center;
-  width: 200px;
-  border-right: 2px dashed white;
-  border: dashed 2px;
-}
-
 /*simbolismos----------------------------------------------------------*/
 .top--container {
   display: -webkit-box;
@@ -430,7 +269,7 @@ aside {
   display: inline-block;
 }
 
-.imagenestop--container img {
+.top--container img {
   position: relative;
   left: 20%;
   height: 300px;
@@ -601,6 +440,10 @@ aside {
     font-size: 0.8em;
     width: 100%;
   }
+  .datos-curiosos li {
+    padding-top: 5px;
+    border-top: 1px solid;
+  }
   aside {
     width: 100%;
     margin-left: 2%;
@@ -608,10 +451,6 @@ aside {
     height: -moz-fit-content;
     height: fit-content;
     font-size: 1.2em;
-  }
-  .datos-curiosos li {
-    padding-top: 5px;
-    border-top: 1px solid;
   }
 }
 
@@ -749,16 +588,16 @@ aside {
   width: 500px;
 }
 
-.imagenes--cartas img {
-  width: 500px;
-  height: 400px;
-}
-
 /*GALERIA-------------------------------------------------*/
 .imagenes--galeria {
   margin: 10px;
-  margin-bottom: 5px;
 }
 
+.imagenes--galeria p {
+  color: white;
+}
 
+.imagenes--galeria img {
+  width: 200px;
+}
 /*# sourceMappingURL=estilos.css.map */
