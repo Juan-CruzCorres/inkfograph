@@ -1,8 +1,0 @@
-
-*.txt
-
-
-node_modules
-
-
-*.map
