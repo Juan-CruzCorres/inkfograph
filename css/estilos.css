@@ -219,7 +219,6 @@ aside {
   text-align: center;
 }
 
-/*galeria-------------------------------------------------------------*/
 /*simbolismos----------------------------------------------------------*/
 .top--container {
   display: flex;
@@ -552,9 +551,27 @@ aside {
   padding-top: 5px;
 }
 
+input {
+  color: white;
+}
+
+.boton-comentario {
+  color: black;
+}
+
 /*HERRAMIENTAS------------------------------------------------*/
 .Subtitulo {
   color: white;
+}
+
+.imagenes-herramientas img {
+  border: 2px white solid;
+  margin: 1%;
+}
+.imagenes-herramientas button {
+  background-color: rgba(7, 7, 78, 0.678);
+  font-family: "Libre Baskerville", serif;
+  border-radius: 15%;
 }
 
 /*# sourceMappingURL=estilos.css.map */
