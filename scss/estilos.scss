@@ -265,7 +265,7 @@ border: 2px solid rgb(255, 0, 0);
     
     
     
-    /*galeria-------------------------------------------------------------*/
+    
     
     
     
@@ -670,7 +670,19 @@ border: 2px solid rgb(255, 0, 0);
       }
   }
     
-    
+  //CONTACTO----------------//
+  
+  input{
+
+  color: $color-texto;
+  
+  }
+
+  .boton-comentario{
+
+  color: black;
+  
+  }
     
     
     /*HERRAMIENTAS------------------------------------------------*/
@@ -680,5 +692,22 @@ border: 2px solid rgb(255, 0, 0);
     color: $color-texto;
     
     }
-    
+
+    .imagenes-herramientas{
+     
+     img{
+     border: 2px white solid;
+      margin: 1%;
+
+     }
+
+     button{
+   
+      background-color: rgba(7, 7, 78, 0.678);
+      font-family: 'Libre Baskerville', serif;
+      border-radius: 15%;
+     }
+    }
+
+  
     
