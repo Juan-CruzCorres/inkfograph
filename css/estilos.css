@@ -569,6 +569,7 @@ input {
   border: 2px white solid;
   margin: 1%;
   width: 40vw;
+  min-height: 60vh;
 }
 .imagenes-herramientas button {
   background-color: rgba(7, 7, 78, 0.678);
@@ -579,6 +580,13 @@ input {
   background-color: rgba(7, 7, 78, 0.678);
   font-family: "Libre Baskerville", serif;
   border-radius: 15%;
+}
+
+.tipos--pieles h3 {
+  color: rgb(117, 10, 10);
+}
+.tipos--pieles p {
+  color: white;
 }
 
 /*# sourceMappingURL=estilos.css.map */

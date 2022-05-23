@@ -700,7 +700,7 @@ border: 2px solid rgb(255, 0, 0);
      border: 2px white solid;
       margin: 1%;
       width: 40vw;
-      
+      min-height: 60vh;
      }
 
      button{
@@ -718,6 +718,18 @@ border: 2px solid rgb(255, 0, 0);
 
      }
     
+    }
+
+    .tipos--pieles{
+
+      h3{
+        color:map-get($palette,secondary) ;
+      }
+
+      p{
+        color: $color-texto;        
+      }
+
     }
 
   
