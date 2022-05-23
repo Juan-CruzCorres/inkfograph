@@ -567,6 +567,7 @@ input {
 .imagenes-herramientas img {
   border: 2px white solid;
   margin: 1%;
+  width: 40vw;
 }
 .imagenes-herramientas button {
   background-color: rgba(7, 7, 78, 0.678);

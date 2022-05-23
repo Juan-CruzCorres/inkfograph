@@ -62,14 +62,14 @@
                   utilizadas por los tatuadores?.
                 </h3>
                   
-                <p>Entonces sigue leyendo  nuestro articulo</p>
+                <p>Entonces haz click en ese boton</p>
 
             </div>
 
         </section>
 
     
-        <section " >
+        <section  >
             
             <!--IMAGENES-->
 
@@ -78,34 +78,42 @@
                
              <div class="herramientas-container container d-flex p-2 flex-column justify-content-center
              align-items-center">
-              <img src="../assets/imagenes/maquina2.jpg" class="img-fluid" alt="...">
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                 MAQUINAS
-                </button>
-                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="staticBackdropLabel">MAQUINAS</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                      </div>
-                      <div class="modal-body">
-                        <p>
-                          Una máquina de tatuar es un dispositivo mecánico manual utilizado para crear tatuajes, es decir, marcas permanentes en la piel con tinta indeleble.
-                          Las modernas máquinas de tatuaje usan bobinas electromagnéticas que desplazan hacia arriba y hacia abajo una barra metálica, conectada con una aguja (de punta simple o múltiple) que empuja la tinta hacia la piel.
-                        </p>
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                       
-                      </div>
+              <img src="../assets/imagenes/maquinasytinta.png" class="img-fluid" alt="...">
+              
+               
+              <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalToggleLabel">Modal 1</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      Show a second modal and hide this one with the button below.
+                    </div>
+                    <div class="modal-footer">
+                      <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Open second modal</button>
                     </div>
                   </div>
                 </div>
-             </div>
-
-           
-
+              </div>
+              <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalToggleLabel2">Modal 2</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      Hide this modal and show the first with the button below.
+                    </div>
+                    <div class="modal-footer">
+                      <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Back to first</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button">TINTAS Y MAQUINAS</a>
           </section>
 
         </section>
