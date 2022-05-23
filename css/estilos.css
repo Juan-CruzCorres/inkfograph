@@ -381,7 +381,8 @@ input {
 .imagenes-herramientas img {
   border: 2px white solid;
   margin: 1%;
-  width: 40vw;
+ 
+  min-width: 60vw;
   min-height: 60vh;
 }
 .imagenes-herramientas button {
