@@ -326,10 +326,11 @@ border: 2px solid rgb(255, 0, 0);
     
     
     .contacto--container{
+      
       p{
       
         margin-bottom: 60px;
-        margin-left: 10px;
+        margin-left: 1%;
         color: white;
       }
       
@@ -352,7 +353,7 @@ border: 2px solid rgb(255, 0, 0);
       border: 3px rgba(207, 1, 1, 0.476) ;
       border-style:groove;
       margin: 10px;
-
+     min-width: 50%;
       }
       
       h3{
@@ -698,7 +699,8 @@ border: 2px solid rgb(255, 0, 0);
      img{
      border: 2px white solid;
       margin: 1%;
-
+      width: 40vw;
+      
      }
 
      button{
@@ -706,7 +708,16 @@ border: 2px solid rgb(255, 0, 0);
       background-color: rgba(7, 7, 78, 0.678);
       font-family: 'Libre Baskerville', serif;
       border-radius: 15%;
+     
      }
+
+     a{
+      background-color: rgba(7, 7, 78, 0.678);
+      font-family: 'Libre Baskerville', serif;
+      border-radius: 15%;
+
+     }
+    
     }
 
   
