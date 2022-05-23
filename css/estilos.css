@@ -381,9 +381,7 @@ input {
 .imagenes-herramientas img {
   border: 2px white solid;
   margin: 1%;
- 
-  min-width: 60vw;
-  min-height: 60vh;
+  min-width: 80vw;
 }
 .imagenes-herramientas button {
   background-color: rgba(7, 7, 78, 0.678);
@@ -401,6 +399,12 @@ input {
 }
 .tipos--pieles p {
   color: white;
+}
+
+@media screen and (max-width: 380px) {
+  .imagen-tintas {
+    width: 90vw;
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */
