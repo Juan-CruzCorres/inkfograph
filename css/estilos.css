@@ -381,7 +381,7 @@ input {
 .imagenes-herramientas img {
   border: 2px white solid;
   margin: 1%;
-  min-width: 80vw;
+  width: 40vw;
 }
 .imagenes-herramientas button {
   background-color: rgba(7, 7, 78, 0.678);
